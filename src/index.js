@@ -43,7 +43,7 @@ function main() {
   const outputFolderPath = path.join(__dirname, 'output');
   createOutputFolderIfNotExists(outputFolderPath);
 
-  const outputPath = path.join(outputFolderPath, 'output-hex.env');
+  const outputPath = path.join(outputFolderPath, 'hex.env');
   writeKeyDataToFile(outputPath, publicKeyHex, hex, privateKeyHex);
 }
 
