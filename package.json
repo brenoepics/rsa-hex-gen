@@ -1,0 +1,24 @@
+{
+  "name": "rsa-hex-gen",
+  "version": "1.0.0",
+  "description": "This Node.js script generates an RSA key pair in hex format.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+	"start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RSA",
+    "Key",
+    "Pair",
+    "Node.js",
+    "Crypto",
+    "JWK",
+    "Base64",
+    "Hex",
+    "Encoding"
+  ],
+  "author": "brenoepics",
+  "license": "ISC"
+}
