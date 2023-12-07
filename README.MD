@@ -17,7 +17,7 @@ To generate an RSA key pair, simply run the script with Node.js:
 npm run start
 ```
 
-Then, you will find your RSA key pair at `output/output-hex.env`.
+Then, you will find your RSA key pair at `output/hex.env`.
 
 ## Packages
 
